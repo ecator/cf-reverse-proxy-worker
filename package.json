@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "wrangler pages deploy",
-    "dev": "wrangler pages dev",
-    "start": "wrangler pages dev",
-    "test": "vitest"
+    "deploy": "wrangler pages deploy .",
+    "dev": "wrangler pages dev .",
+    "start": "wrangler pages dev ."
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.4.5",
